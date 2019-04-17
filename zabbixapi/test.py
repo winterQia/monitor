@@ -17,7 +17,7 @@ data = json.dumps(
    "user": "admin",
    "password": "zabbix"
 },
-"id": 0
+"id": 1
 })
 # create request object
 request = urllib2.Request(url, data)
